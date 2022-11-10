@@ -1,0 +1,22 @@
+# Vizualization
+
+library(ggplot2)
+
+https://ggplot2.tidyverse.org
+
+```{r}
+#| warning: false
+#| echo: false 
+library(tidyverse)
+
+```
+
+```{r}
+#| code-fold: true
+#| code-summary: Show the code
+starwars |> 
+  filter(mass < 500) |> 
+  drop_na(mass, height) |> 
+  ggplot(aes(height, mass)) +
+  geom_point()
+```

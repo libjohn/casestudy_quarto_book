@@ -1,0 +1,41 @@
+# Data wrangling
+
+The Tidyverse is a dialect of R. When you load the tidyverse `library(tidyverse)` , R will import eight libraries. Among these eight include {reader} for importing CSV data; {dplyr} and {tidyr} for data wrangling; {ggplot2} for visualizations. \
+
+### Import Data
+
+Find the data import wizard in the Environment tab. Use that to help compose your data import statements.
+
+For example
+
+-   `readr::read_csv(my_csv_file.csv)`
+
+-   `readxl::read_excel(my_excel_file.xlsx)`
+
+-   `haven::read_stata(my_stata_file.dta)`
+
+### Data wrangling
+
+Use {dplyr} for basic wrangling
+
+-   `select()` columns
+
+-   `filter()` rows
+
+-   `mutate()` new or existing variables
+
+-   `group_by()` and summarize() to get column totals
+
+-   `count()` to generate simple tallys and frequencies
+
+use {tidyr} for pivoting date
+
+-   `pivot_longer()`
+
+-   `pivot_wider()`
+
+## More information
+
+-   https://Rfun.library.duke.edu
+
+-   QuickStart

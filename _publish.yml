@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 65604a31-7313-4aa4-9fc6-b1dbb23fd86e
+      url: 'https://quartopub.com/sites/libjohn/quarto-books-101'

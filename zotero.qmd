@@ -1,0 +1,14 @@
+# Managing a bibliography
+
+1.  Download Zotero from zotero.org
+    -   install zotero connector in your browser
+2.  Export as BiBTex file: .bib
+3.  Store .bib file in your Quarto Book project directory.
+
+### DOI reference
+
+@jovic2014
+
+### from my_library.bib
+
+George Saunders has a lot to say about conversations in graveyards. @lincoln

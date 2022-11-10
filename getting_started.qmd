@@ -1,0 +1,7 @@
+# Getting Started
+
+1.  RStudio IDE `> New Project > New Directory > Quarto Book`
+2.  Develop pages via-a-vis this template, or [quarto documentation for creating books](https://quarto.org/docs/books/)
+3.  Build tab \> Render book
+4.  Publish to Quarto.pub (optional)
+    -   Terminal \> quarto publish quarto-pub

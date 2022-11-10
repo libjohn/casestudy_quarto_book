@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quarto Books 101",
+    "section": "",
+    "text": "This is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "See Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "getting_started.html",
+    "href": "getting_started.html",
+    "title": "2  Getting Started",
+    "section": "",
+    "text": "RStudio IDE > New Project > New Directory > Quarto Book\nDevelop pages via-a-vis this template, or quarto documentation for creating books\nBuild tab > Render book\nPublish to Quarto.pub (optional)\n\nTerminal > quarto publish quarto-pub"
+  },
+  {
+    "objectID": "grammar_data.html",
+    "href": "grammar_data.html",
+    "title": "3  Data wrangling",
+    "section": "",
+    "text": "The Tidyverse is a dialect of R. When you load the tidyverse library(tidyverse) , R will import eight libraries. Among these eight include {reader} for importing CSV data; {dplyr} and {tidyr} for data wrangling; {ggplot2} for visualizations."
+  },
+  {
+    "objectID": "grammar_data.html#more-information",
+    "href": "grammar_data.html#more-information",
+    "title": "3  Data wrangling",
+    "section": "3.1 More information",
+    "text": "3.1 More information\n\nhttps://Rfun.library.duke.edu\nQuickStart"
+  },
+  {
+    "objectID": "grammar_graphics.html",
+    "href": "grammar_graphics.html",
+    "title": "4  Vizualization",
+    "section": "",
+    "text": "https://ggplot2.tidyverse.org\n\n\n\n\n\nShow the code\nstarwars |> \n  filter(mass < 500) |> \n  drop_na(mass, height) |> \n  ggplot(aes(height, mass)) +\n  geom_point()"
+  },
+  {
+    "objectID": "zotero.html",
+    "href": "zotero.html",
+    "title": "5  Managing a bibliography",
+    "section": "",
+    "text": "5.0.1 DOI reference\nJovic, Brkic, and Bogunovic (2014)\n\n\n5.0.2 from my_library.bib\nGeorge Saunders has a lot to say about conversations in graveyards. “Lincoln in the Bardo” (n.d.)\n\n\n\n\nJovic, A., K. Brkic, and N. Bogunovic. 2014. “An Overview of Free Software Tools for General Data Mining.” 2014 37th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO), May. https://doi.org/10.1109/mipro.2014.6859735.\n\n\n“Lincoln in the Bardo.” n.d. https://www.goodreads.com/book/show/29906980-lincoln-in-the-bardo."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "6  Summary",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2\n\n\nWhat would Colson Whithead say about this? Whitehead (1999)\n\n\n\n\nWhitehead, Colson. 1999. The Intuitionist. 1st Anchor Books ed. New York : Anchor Books, 1999. https://find.library.duke.edu/catalog/DUKE002589592."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Jovic, A., K. Brkic, and N. Bogunovic. 2014. “An Overview of Free\nSoftware Tools for General Data Mining.” 2014 37th\nInternational Convention on Information and Communication Technology,\nElectronics and Microelectronics (MIPRO), May. https://doi.org/10.1109/mipro.2014.6859735.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n“Lincoln in the Bardo.” n.d. https://www.goodreads.com/book/show/29906980-lincoln-in-the-bardo.\n\n\nWhitehead, Colson. 1999. The Intuitionist. 1st Anchor Books ed.\nNew York : Anchor Books, 1999. https://find.library.duke.edu/catalog/DUKE002589592."
+  }
+]

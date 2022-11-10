@@ -1,0 +1,46 @@
+project:
+  type: book
+
+book:
+  title: "Quarto Books 101"
+  author: 
+    - name: Jane Doe
+      affiliations:
+        - name: University of XXX
+          department: Department of YYY    
+  date: "11/9/2022"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - getting_started.qmd
+    - grammar_data.qmd
+    - grammar_graphics.qmd
+    - zotero.qmd
+    - summary.qmd
+    - references.qmd
+  cover-image: cover.png
+  search: true
+  repo-url: https://github.com/libjohn/somewhere
+  repo-actions: [source] # source, issue, edit
+  downloads: [pdf, epub, docx]
+  sharing: [twitter, facebook, linkedin]  
+  # license: "CC BY"
+  page-footer:
+    center: 
+      - text: "License CC BY 4.0"
+        href: https://creativecommons.org/licenses/by/4.0/  # licens.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+  epub: 
+    output-file: _book
+  docx: 
+    author: John	
+
+editor: visual
+
