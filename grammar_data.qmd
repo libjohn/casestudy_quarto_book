@@ -1,6 +1,6 @@
 # Data wrangling
 
-The Tidyverse is a dialect of R. When you load the tidyverse `library(tidyverse)` , R will import eight libraries. Among these eight include {reader} for importing CSV data; {dplyr} and {tidyr} for data wrangling; {ggplot2} for visualizations. \
+The Tidyverse is a dialect of R. When you load the tidyverse `library(tidyverse)` , R will import eight libraries. Among these eight include {reader} for importing CSV data; {dplyr} and {tidyr} for data wrangling; {ggplot2} for visualizations.\
 
 ### Import Data
 
@@ -24,7 +24,7 @@ Use {dplyr} for basic wrangling
 
 -   `mutate()` new or existing variables
 
--   `group_by()` and summarize() to get column totals
+-   `group_by()` and `summarize()` to get column totals
 
 -   `count()` to generate simple tallys and frequencies
 
@@ -36,6 +36,4 @@ use {tidyr} for pivoting date
 
 ## More information
 
--   https://Rfun.library.duke.edu
-
--   QuickStart
+-   [QuickStart with R](https://rfun.library.duke.edu/portfolio/r_flipped/)

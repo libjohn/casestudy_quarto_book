@@ -1,8 +1,6 @@
 # Vizualization
 
-library(ggplot2)
-
-https://ggplot2.tidyverse.org
+library([ggplot2](https://ggplot2.tidyverse.org))
 
 ```{r}
 #| warning: false

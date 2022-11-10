@@ -32,21 +32,21 @@
     "href": "grammar_data.html#more-information",
     "title": "3  Data wrangling",
     "section": "3.1 More information",
-    "text": "3.1 More information\n\nhttps://Rfun.library.duke.edu\nQuickStart"
+    "text": "3.1 More information\n\nQuickStart with R"
   },
   {
     "objectID": "grammar_graphics.html",
     "href": "grammar_graphics.html",
     "title": "4  Vizualization",
     "section": "",
-    "text": "https://ggplot2.tidyverse.org\n\n\n\n\n\nShow the code\nstarwars |> \n  filter(mass < 500) |> \n  drop_na(mass, height) |> \n  ggplot(aes(height, mass)) +\n  geom_point()"
+    "text": "Show the code\nstarwars |> \n  filter(mass < 500) |> \n  drop_na(mass, height) |> \n  ggplot(aes(height, mass)) +\n  geom_point()"
   },
   {
     "objectID": "zotero.html",
     "href": "zotero.html",
     "title": "5  Managing a bibliography",
     "section": "",
-    "text": "5.0.1 DOI reference\nJovic, Brkic, and Bogunovic (2014)\n\n\n5.0.2 from my_library.bib\nGeorge Saunders has a lot to say about conversations in graveyards. “Lincoln in the Bardo” (n.d.)\n\n\n\n\nJovic, A., K. Brkic, and N. Bogunovic. 2014. “An Overview of Free Software Tools for General Data Mining.” 2014 37th International Convention on Information and Communication Technology, Electronics and Microelectronics (MIPRO), May. https://doi.org/10.1109/mipro.2014.6859735.\n\n\n“Lincoln in the Bardo.” n.d. https://www.goodreads.com/book/show/29906980-lincoln-in-the-bardo."
+    "text": "5.0.1 DOI reference\nAdd reference with @ symbol and a DOI. For example ‘@10.1037/amp0000151’\n\n\n5.0.2 from my_library.bib\nOr, type @ and begin searching you local .bib files.\nFor example: George Saunders has a lot to say about conversations in graveyards. “Lincoln in the Bardo” (n.d.)\n\n\n5.0.3 Compiled References\nAll references will be summarized in the References section of the book.\n\n\n\n\n“Lincoln in the Bardo.” n.d. https://www.goodreads.com/book/show/29906980-lincoln-in-the-bardo."
   },
   {
     "objectID": "summary.html",
@@ -60,6 +60,6 @@
     "href": "references.html",
     "title": "References",
     "section": "",
-    "text": "Jovic, A., K. Brkic, and N. Bogunovic. 2014. “An Overview of Free\nSoftware Tools for General Data Mining.” 2014 37th\nInternational Convention on Information and Communication Technology,\nElectronics and Microelectronics (MIPRO), May. https://doi.org/10.1109/mipro.2014.6859735.\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n“Lincoln in the Bardo.” n.d. https://www.goodreads.com/book/show/29906980-lincoln-in-the-bardo.\n\n\nWhitehead, Colson. 1999. The Intuitionist. 1st Anchor Books ed.\nNew York : Anchor Books, 1999. https://find.library.duke.edu/catalog/DUKE002589592."
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.\n\n\n“Lincoln in the Bardo.” n.d. https://www.goodreads.com/book/show/29906980-lincoln-in-the-bardo.\n\n\nWhitehead, Colson. 1999. The Intuitionist. 1st Anchor Books ed.\nNew York : Anchor Books, 1999. https://find.library.duke.edu/catalog/DUKE002589592."
   }
 ]

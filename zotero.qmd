@@ -1,14 +1,20 @@
 # Managing a bibliography
 
-1.  Download Zotero from zotero.org
-    -   install zotero connector in your browser
+1.  Download [Zotero](zotero.org)
+    -   install *zotero connector* in your browser extensions
 2.  Export as BiBTex file: .bib
 3.  Store .bib file in your Quarto Book project directory.
 
 ### DOI reference
 
-@jovic2014
+Add reference with `@` symbol and a [*DOI*](https://en.wikipedia.org/wiki/Digital_object_identifier)*.* For example '\@10.1037/amp0000151'
 
 ### from my_library.bib
 
-George Saunders has a lot to say about conversations in graveyards. @lincoln
+Or, type `@` and begin searching you local .bib files.
+
+For example: George Saunders has a lot to say about conversations in graveyards. @lincoln
+
+### Compiled References
+
+All references will be summarized in the [References](references.html) section of the book.
