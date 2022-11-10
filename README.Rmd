@@ -1,0 +1,31 @@
+---
+# output: github_document
+format: gfm
+output-file:  README
+output-ext: md
+
+author: 
+  - name: John Little
+    affiliations:
+      - name: Center for Data & Visualization Sciences
+        department: Duke University Libraries    
+date: "`r Sys.Date()`"
+license: CC BY 4.0
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# casestudy_quarto_book
+
+<!-- badges: start -->
+
+<!-- badges: end -->
+
+Creating a template and documentation on [Quarto Books](https://quarto.org/docs/books/) composed in the Posit (née RStudio) IDE
