@@ -4,6 +4,7 @@ format: gfm
 output-file:  README
 output-ext: md
 author: John Little
+date: "`r Sys.Date()`"
 license: CC BY 4.0
 ---
 
