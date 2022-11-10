@@ -20,7 +20,7 @@ book:
     - references.qmd
   cover-image: cover.png
   search: true
-  repo-url: https://github.com/libjohn/somewhere
+  repo-url: https://github.com/libjohn/casestudy_quarto_book
   repo-actions: [source] # source, issue, edit
   downloads: [pdf, epub, docx]
   sharing: [twitter, facebook, linkedin]  
